@@ -1,0 +1,20 @@
+<div class="alert alert-info" role="alert">
+  <blockquote class="blockquote">
+    <%= @message.capitalize %>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <em>You</em>
+  </figcaption>
+</div>
+
+<div class="alert alert-warning" role="alert">
+  <blockquote class="blockquote">
+    <h2>
+      <%= @message_to_print %>
+    </h2>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <em>The Coach</em>
+  </figcaption>
+</div>
+<%= link_to 'Ask a new question', ask_path %>
